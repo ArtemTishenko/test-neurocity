@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<!--    <link href="../index.css" rel="stylesheet">-->
+</head>
+<body style="margin: 0">
+    <section class="task1">
+        <div class="slider-wrapper">
+            <div class="slider-container">
+                <div class="slide">
+                    <p class="slide__text">1</p>
+                </div>
+                <div class="slide">
+                    <p class="slide__text">2</p>
+                </div>
+                <div class="slide">
+                    <p class="slide__text">3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="task2 block-wrapper">
+        <canvas id="canvas" style="display:block">Установи нормальный браузер</canvas>
+    </section>
+    <section class="task6 block-wrapper">
+        <center class="block__parent block__parent_html">
+            <div class="block__relative"></div>
+        </center>
+        <div class="block__parent  block__parent_css">
+            <div class="block__relative"></div>
+        </div>
+        <div class="block__parent  block__parent_js">
+            <div class="block__relative"></div>
+        </div>
+    </section>
+
+    <section class="task3">
+        <div class="container-video">
+            <video id="video" width="400" height="300"  preload="auto">
+                <source src="<%=require('./16392130707410.webm')%>" type=video/webm>
+            </video>
+            <p class="video-duration"></p>
+        </div>
+    </section>
+
+    <section class="task7">
+        <button class="btn" id="btn__show-blocks">Показать</button>
+        <div class="block-wrapper">
+            <div class=" block block__a"></div>
+            <div class="block block__b"></div>
+            <div class="block block__c"></div>
+        </div>
+    </section>
+    <section class="task8">
+        <button class="btn" id="btn__generate-squares">Сгенерировать</button>
+        <div class="squares"></div>
+    </section>
+
+
+
+</body>
+</html>
